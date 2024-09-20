@@ -9,7 +9,7 @@ const sidebar = [
   {
     icon: <BiSolidDashboard />,
     text: "Dashboard",
-    path: "/dashboard",
+    path: "/",
   },
   {
     icon: <FaUsers />,
@@ -37,7 +37,7 @@ const Sidebar = ({ isSidebar }) => {
       } w-64 z-40 transform md:translate-x-0 transition-transform duration-300 fixed top-[4.25rem] md:top-0 left-0 bg-main h-full overflow-y-auto md:fixed md:block`}
     >
       <div className="py-6 text-[#9e9e9e]">
-        <Link to="/dashboard" className="ml-6 text-xl font-bold text-[#e5e7eb]">
+        <Link to="/" className="ml-6 text-xl font-bold text-[#e5e7eb]">
           Windmill
         </Link>
         <ul className="mt-8">

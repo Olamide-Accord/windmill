@@ -15,7 +15,7 @@ const Input = ({
     <div className="mb-5 w-full">
       <div className="flex items-center justify-between relative">
         <input
-          className="appearance-none w-full px-4 border-0 rounded-md placeholder-gray-500 focus:outline-[#e5e7eb] focus:placeholder-gray-600 bg-[#24262d] text-[#e5e7eb] focus:border-[#cabffd] focus:outline-none focus:shadow-outline-purple form-input py-3.5"
+          className="appearance-none w-full px-4 border-0 rounded-md placeholder-gray-500 focus:outline-[#e5e7eb] focus:placeholder-gray-600 bg-[#24262d] text-[#e5e7eb] focus:border-[#cabffd] focus:outline-none placeholder:text-lg text-base focus:shadow-outline-primaryLight py-3.5"
           id={id}
           name={name}
           type={passwordToggle ? (showPassword ? "text" : "password") : type}

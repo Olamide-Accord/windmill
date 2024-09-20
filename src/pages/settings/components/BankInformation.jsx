@@ -6,8 +6,8 @@ import { IoIosCloseCircle } from "react-icons/io";
 
 const arr = [
   {
-    name: "Evwindonor allen edoja",
-    bankName: "UBA",
+    name: "Olaoluwa Uchenna edoja",
+    bankName: "OPAY",
     bankNo: "0192009303",
   },
 ];
