@@ -14,10 +14,10 @@ const Home = () => {
         <div>
           <Input type="email" placeholder="johndoe@gmail.com" />
           <Input type="password" placeholder="password" />
-          <div className="flex justify-center">
+          <div className="flex justify-center pt-3.5">
             <button
               onClick={submitLogin}
-              className="bg-primary rounded-md text-white font-semibold px-6 py-2"
+              className="bg-primary rounded-md text-white font-semibold px-10 py-2.5"
             >
               Login
             </button>
